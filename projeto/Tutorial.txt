@@ -1,0 +1,47 @@
+-- Instalar Json Rest Server:
+https://pub.dev/packages/json_rest_server
+
+dart pub global activate json_rest_server
+nano ~/.bashrc
+	- Adicionar linha: export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+-- Criar projeto Json Rest Server:
+cd /projs/dartweek/projeto/json_rest_server_exemplo
+jrs create .
+code .
+jrs run
+
+Preparação:
+-- JDK: Java Developer Kit -> necessário para desenvolver
+-- JRE: Java Run Enviroment
+
+-- Instalar Android Studio
+sudo snap install android-studio --classic
+
+-- Instalar Android SKD
+Android Studio > Appearance & Behavior > System Settings > Android SDK > SDK Platforms: instale algumas versões do Android
+
+-- Variáveis de ambiente: (copie o caminho do Android Studio no atalho acima, depois em: Android SDK Location)
+nano ~/.bashrc
+export ANDROID_HOME=/home/giovani/Android/Sdk
+export ANDROID_SDK_ROOT=/home/giovani/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+Android Studio > Appearance & Behavior > System Settings > Android SDK > SDK Tools: instale o que ja vem marcado + Android SDK Comand-line Tools
+
+> Instalar plugin Dart
+> Instalar plugin Flutter
+> Download JDK
+
+-- Instalar FVM (opcional)
+https://academiadoflutter.com.br/preparacao
+
+-- Usar o Postman para criar usuario e fazer login
+
+-- Criar projeto Flutter
+flutter create --project-name dw9_delivery_app --platforms android --org br.com.academiadoflutter.vakinhaburguer ./dw9_delivery_app
+cd ./dw9_delivery_app
+code.
+
+-> BLOC: gerenciador de estado

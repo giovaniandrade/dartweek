@@ -1,0 +1,60 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Academia do flutter"
+        },
+        {
+            "id": 1,
+            "title": "Jornada Dart"
+        },
+        {
+            "id": 2,
+            "title": "Jornada GetX"
+        }
+    ],
+    "cars": [
+        {
+            "id": 1,
+            "name": "Fusca"
+        },
+        {
+            "id": 2,
+            "title": "Verona"
+        },
+        {
+            "id": 3,
+            "title": "Escort"
+        },
+        {
+            "id": 4,
+            "title": "Gol"
+        },
+        {
+            "id": 5,
+            "title": "Siena"
+        },
+        {
+            "id": 5,
+            "title": "Air Cross"
+        },
+        {
+            "id": 6,
+            "title": "City"
+        }
+    ]
+}
