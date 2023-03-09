@@ -45,3 +45,17 @@ cd ./dw9_delivery_app
 code.
 
 -> BLOC: gerenciador de estado
+
+-- Rodar o projeto
+Clicar no icone "No device" (parte inferior do VS Code).
+Selecione o emular para rodar.
+Clicar em "Run and Debug" (lateral esquerda do VS Code).
+Create a launch.json file.
+Selecione a aba do Main.dart.
+No topo selecione o projeto.
+No topo clique no icone Play/Debug.
+
+https://www.youtube.com/watch?v=SVVkGBz5MtM
+
+Encerramento
+https://www.youtube.com/watch?v=CdseqD5phPg
